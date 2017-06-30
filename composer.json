@@ -1,0 +1,22 @@
+{
+    "name": "anandpilania/laravel-burnmsg",
+    "description": "BurnMsg package for Laravel.",
+	"keywords": ["laravel", "anandpilania", "burnmsg"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anand Pilania",
+            "email": "pilaniaanand@gmail.com"
+        }
+    ],
+	"minimum-stability": "stable",
+    "require": {
+		"laravel/framework": "^5.*"
+	},
+	"autoload": {
+        "psr-4": {
+            "AP\\Burnmsg\\": "src/"
+        }
+    },
+	"suggest": {}
+}
